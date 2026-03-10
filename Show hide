@@ -1,0 +1,19 @@
+<html><head> 
+<script src="js/jquery.js"></script> 
+<script> 
+$(document).ready(function(){ 
+$("#b1").click(function(){ 
+$("p").hide(1000); 
+}); 
+$("#b2").click(function(){ 
+$("p").show("fast"); 
+}); 
+}); 
+</script> 
+</head> 
+<body> 
+<button id="b1">Hide</button> 
+<button id="b2">show</button> 
+<p>This is a paragraph with little content.</p> 
+<p>This is another small paragraph.</p> 
+</body></html> 
